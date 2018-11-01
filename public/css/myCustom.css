@@ -1,0 +1,139 @@
+body{
+                 background-image: url("../images/pharmacyBackground.jpg");
+                 background-attachment:fixed;
+                 background-size:100%;  
+                 background-color:blue;
+             }
+
+             
+#form{
+    border:solid red 3px;
+    width:1000px;
+    margin-left:10px;
+    margin-top:20px;
+}
+#centerPost{
+    background-color: aqua;
+    margin:auto;
+    width:1000px;
+    margin-top:50px;
+    overflow: hidden;
+
+}
+#isGeneric1{
+    display:none;
+}
+.edit{
+    float:left;
+    width:400px;
+}
+.delete{
+    float:right;
+    width:400px;
+}
+.customNave li, .moreAction li{
+    list-style-type: none;
+    color:white;
+     /* padding:10px; */
+     /* padding-right: 30px; */
+
+}
+
+.customNave li a,.moreAction li a{
+    color:white;
+}
+.customNave4,.customNave5,.customNave,.moreAction,.customNave2,.customNave3{
+    display:none;
+    position:absolute;
+    z-index: 1000;
+    background-color:#333;
+    left:150px;
+   
+}
+.moreAction{
+    left:350px;
+    /* display:block; */
+}
+#dispPCat:hover .customNave5,#dispPTypes:hover .customNave4,#dispStores:hover .customNave3,#dispProducts:hover .customNave2,.management:hover .customNave,.moreActionMenu:hover .moreAction{
+    display:block;
+}
+#indProduct{
+    border:3px solid red;
+    margin:0px auto;
+    margin-top:50px;
+    width:1000px;
+   
+}
+li a{
+    display:block;
+}
+.customNave2,.customNave5,.customNave3,.customNave4{
+    display:none;
+    left:152px;
+    top:0px;
+    width:200px;
+}
+.customNave3{
+    top:20px;
+
+}
+.customNave4{
+    top:40px;
+}
+.customNave5{
+    top:60px;
+}
+.addPLft{
+    float:right;
+}
+.hideIt{
+    display: none;
+}
+.good{
+    background-color:green;
+    color:white;
+}
+.better{
+    background-color: yellow;
+
+}
+.bad{
+    background-color: red;
+}
+.hideField{
+    display:none;
+}
+.danger {
+  background-color: #a94442;
+}
+.success{
+
+  background-color: #28a745;
+}
+.errorMsg{
+ color: red;
+ text-align: center;
+ font-weight: bolder;
+ font-style: oblique;
+}
+.label{
+    font-style: oblique;
+}
+.formCenter{
+    width:1500px;
+    /* border: solid red 10px; */
+    margin:0px auto;
+    margin-top:2%;
+    background-color:white;
+    opacity: 0.9;
+}
+.tbl{
+    background-color:white;
+    opacity: 0.9;
+}
+.centerIt{
+    text-align: center;
+}
+.content{
+    padding:20px;
+}
